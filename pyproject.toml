@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "redcrawl"
+version = "0.1.0"
+description = "Gets the 5 first top 10 albums and downloads them to your torrent blackhole."
+authors = ["biscoito <biscoito@riseup.net>"]
+license = "GNU GPLv3"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.28.1"
+python-dotenv = "^0.21.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
